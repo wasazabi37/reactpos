@@ -53,83 +53,9 @@
       "ProductName": "Licensed Fresh Tuna",
       "ProductPrice": "506.00",
       "thumbnail": "/images/product/2.jpg"
-    },
-    {
-      "id": 10,
-      "ProductName": "Small Plastic Hat",
-      "ProductPrice": "266.00",
-      "thumbnail": "/images/product/5.jpg"
     }
   ],
   "orders": [
-    {
-      "orderedDate": "2020-09-10T15:03:25.637Z",
-      "totalPrice": 4350,
-      "orders": [
-        {
-          "product": {
-            "id": 4,
-            "ProductName": "Handcrafted Frozen Chair",
-            "ProductPrice": "661.00",
-            "thumbnail": "/images/product/6.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 8,
-            "ProductName": "Licensed Steel Mouse",
-            "ProductPrice": "104.00",
-            "thumbnail": "/images/product/3.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 7,
-            "ProductName": "Practical Steel Mouse",
-            "ProductPrice": "205.00",
-            "thumbnail": "/images/product/5.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 3,
-            "ProductName": "Sleek Steel Shirt",
-            "ProductPrice": "932.00",
-            "thumbnail": "/images/product/2.jpg"
-          },
-          "quantity": 3
-        },
-        {
-          "product": {
-            "id": 2,
-            "ProductName": "Practical Fresh Table",
-            "ProductPrice": "584.00",
-            "thumbnail": "/images/product/1.jpg"
-          },
-          "quantity": 1
-        }
-      ],
-      "id": 1
-    },
-    {
-      "orderedDate": "2020-09-10T15:03:36.324Z",
-      "totalPrice": 1322,
-      "orders": [
-        {
-          "product": {
-            "id": 4,
-            "ProductName": "Handcrafted Frozen Chair",
-            "ProductPrice": "661.00",
-            "thumbnail": "/images/product/6.jpg"
-          },
-          "quantity": 2
-        }
-      ],
-      "id": 2
-    },
     {
       "orderedDate": "2020-09-10T15:03:41.529Z",
       "totalPrice": 1530,
@@ -188,47 +114,6 @@
         }
       ],
       "id": 4
-    },
-    {
-      "orderedDate": "2020-09-10T15:03:49.771Z",
-      "totalPrice": 1692,
-      "orders": [
-        {
-          "product": {
-            "id": 1,
-            "ProductName": "Sleek Metal Shirt",
-            "ProductPrice": "564.00",
-            "thumbnail": "/images/product/1.jpg"
-          },
-          "quantity": 3
-        }
-      ],
-      "id": 5
-    },
-    {
-      "orderedDate": "2020-09-10T15:03:53.230Z",
-      "totalPrice": 2064,
-      "orders": [
-        {
-          "product": {
-            "id": 2,
-            "ProductName": "Practical Fresh Table",
-            "ProductPrice": "584.00",
-            "thumbnail": "/images/product/1.jpg"
-          },
-          "quantity": 2
-        },
-        {
-          "product": {
-            "id": 6,
-            "ProductName": "Rustic Granite Bacon",
-            "ProductPrice": "448.00",
-            "thumbnail": "/images/product/6.jpg"
-          },
-          "quantity": 2
-        }
-      ],
-      "id": 6
     }
   ]
 }
