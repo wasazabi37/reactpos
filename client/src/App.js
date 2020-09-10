@@ -6,7 +6,6 @@ import About from "./container/About";
 import Order from "./container/Order/Order";
 import Products from "./container/product/Product";
 import NotFound from "./container/error/Notfound"
-import Login from "./container/Login/Login"
 import ProductEdit from "./container/product/ProductEdit"
 
 class App extends Component { //class component
@@ -21,7 +20,6 @@ class App extends Component { //class component
         <Route exact path="/products" component={Products} />
         <Route exact path="/products/add" component={ProductEdit} />
         <Route exact path="/products/edit/:id" component={ProductEdit} />
-        <Route exact path="/login" component={Login} />
         <Route component={NotFound}></Route>
         
       </Switch>
