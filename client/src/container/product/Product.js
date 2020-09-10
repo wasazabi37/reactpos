@@ -37,7 +37,6 @@ class Product extends Component {
             return (
                 <tr className="text-center" key={product.id}>
                     <td>{product.id}</td>
-                    <td>{product.productId}</td>
                     <td>{product.ProductName}</td>
                     <td>{product.ProductPrice} THB</td>
                     <td><button className="btn btn-primary"><FontAwesomeIcon icon={faSun} onClick={() => { this.editProduct(product) }} /></button><button className="btn btn-danger ml-1" onClick={() => { this.deleteProduct(product) }}><FontAwesomeIcon icon={faTrashAlt} /></button></td>
@@ -65,7 +64,6 @@ class Product extends Component {
                             <thead>
                                 <tr className="text-center">
                                     <th>id</th>
-                                    <th>productId</th>
                                     <th>ProductName</th>
                                     <th>ProductPrice</th>
                                     <th>Edit</th>
